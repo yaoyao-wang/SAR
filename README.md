@@ -26,7 +26,7 @@ After determining the day’s acceleration factor and extreme price, we can calc
 
 As we can see, SAR is closely connected to the price trend, as it affects both acceleration factor and extreme price.
 
-![](image/SAR)
+![](image/SAR.png)
 
 The parabolic SAR indicator appears on a chart as a series of dots, either above or below an asset's price, depending on the direction the price is moving.
 
@@ -38,17 +38,17 @@ A dot is placed below the price when it is trending upward, and above the price 
 
 When the dots are below the close price curve, there must be a uptrend in stock price.
 
-![](image/uptrend)
+![](image/uptrend.png)
 
 On the other hand, when the dots are above the close price curve, there must be a downtrend in price
 
 Thus, when we see the SAR dots moves across the price curve, either from above or below, we know there’s going to be a reversal in current price trend, and we should be ready to buy or sell the stock
 
-![](image/downtrend)
+![](image/downtrend.png)
 
 ### · Whipsaws during trendless markets
 
-![](image/trendless_markets)
+![](image/trendless_markets.png)
 However, SAR may be a little inefficient when there’s no obvious trend going on.
 
 In this case, we’ll see the SAR dots cross price curve frequently
@@ -71,7 +71,7 @@ Thus, if we see the SAR dots moving across price curve from above to below, we k
 
 Oppositely, when we see the SAR dots moving from below to above, the bullish trend has turned into a bearish one, and the price will drop soon. We should sell our stock as soon as possible.
 
-![](image/strategy)
+![](image/strategy.png)
 
 ## 4. Tradingview Pine Script
 
@@ -127,7 +127,7 @@ Oppositely, when we see the SAR dots moving from below to above, the bullish tre
 
 ### · Step Four: Strategy Entry and Strategy Close
 
-#### i) SAR Strategy
+#### i). SAR Strategy
 
     //Step Four: Strategy Entry and Strategy Close
     if crossover(close, s)
@@ -152,7 +152,7 @@ Oppositely, when we see the SAR dots moving from below to above, the bullish tre
 | --- | --- | ---| --- | --- |
 | **SAR Strategy** | 33.66% | 45.03% | 1.073 | 48.9% |
 
-#### ii) SAR against Market
+#### ii). SAR against Market
 
 |  | **Net Profit** | **Precent Profitable** | **Profit Factor** | **Max Drawdown** | 
 | --- | --- | ---| --- | --- |
