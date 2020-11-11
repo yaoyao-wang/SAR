@@ -41,12 +41,12 @@ When the dots are below the close price curve, there must be a uptrend in stock 
 <p float="left">
     <img src="image/uptrend.png" width="500" height="300" />
 
-
 On the other hand, when the dots are above the close price curve, there must be a downtrend in price
 
 Thus, when we see the SAR dots moves across the price curve, either from above or below, we know there’s going to be a reversal in current price trend, and we should be ready to buy or sell the stock
 
-![](image/downtrend.png)
+<p float="left">
+    <img src="image/downtrend.png" width="500" height="300" />
 
 ### · Whipsaws during trendless markets
 
