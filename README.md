@@ -38,7 +38,9 @@ A dot is placed below the price when it is trending upward, and above the price 
 
 When the dots are below the close price curve, there must be a uptrend in stock price.
 
-![](image/uptrend.png)
+<p float="left">
+    <img src="image/uptrend.png" width="500" height="300" />
+
 
 On the other hand, when the dots are above the close price curve, there must be a downtrend in price
 
